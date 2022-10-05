@@ -1,0 +1,65 @@
+# Aula 05/10 Inicio 2° bimestre
+
+## Manifesto agil
+
+
+Criado em 2001, por 17 pessoas 
+
+(Alistair Cockburn, Andrew Hunt, Arie van Bennekum, Brian Marick,David Thomas, James Grenning, Jeff Sutherland, Jim Highsmith, Jon Kern, KenSchwaber, Kent Beck, Martin Fowler, Mike Beedle, Robert C. Martin, Ron Jeffries,Steve Mellor e Ward Cunningham.)
+
+### Possui 4 valores sendo eles:
+- Os ***indivíduos*** e suas ***interações*** acima de procedimentos e ferramentas;
+- O ***funcionamento*** do software ***acima de documentação*** abrangente;
+- A ***colaboração*** com o cliente ***acima da negociação e contrato***
+- A capacidade de ***resposta a mudanças acima de um plano pre estabelecido***.
+  
+### 12 principios do manifesto agil
+1. Nossa maior prioridade é satisfazer o cliente através da **entrega contínua** eadiantada de software com valor agregado.
+2. **Mudanças nos requisitos são bem-vindas**, mesmo tardiamente no desenvolvimento.Processos ágeis tiram vantagem das mudanças visando vantagem competitiva parao cliente.
+3. **Entregar frequentemente** software funcionando, de **poucas semanas a poucos meses**, com preferência à menor escala de tempo.
+4. **Pessoas de negócio e desenvolvedores** devem trabalhar **diariamente em conjunto** por todo o projeto.
+5. Construa projetos em torno de indivíduos motivados. Dê a eles o ambiente e o suporte necessário e confie neles para fazer o trabalho.
+6. O método mais eficiente e eficaz de transmitir informações para e entre uma equipe de desenvolvimento é através de **conversa face a face.**
+7. **Software funcionando** é a medida primária de progresso.
+8. Os processos ágeis promovem desenvolvimento sustentável. Os patrocinadores, desenvolvedores e usuários devem ser capazes de manter um ritmo constante indefinidamente.
+9.  Contínua **atenção à excelência técnica e bom design** aumenta a agilidade.
+10. Simplicidade – a arte de maximizar a quantidade de trabalho não realizado – é essencial.
+11. As melhores **arquiteturas, requisitos e designs** emergem de **equipes autoorganizáveis.**
+12. Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e então refina e ajusta seu comportamento de acordo.
+    
+### Desvantagens da arquitetura tradicional
+- *Modelagens grandes e complexas*
+    1. O código só será escrito depois da modelagem;
+    2.  Não captura as verdadeiras necessidades do usuário.
+- *Falta de flexibilidade*
+    1. Decisões técnicas centralizadas no arquiteto;
+    2. Sistema burocrático de mudanças;
+    3. Abordagem de desenvolvimento rígido e lento;
+    4. Não permite a tentativa-erro ou aprendizado.
+   
+### Separação de interesses em camadas (Horizontal)
+
+```
+Camada-de-apresentação:
+    - Web Designers
+Camada-de-negocios:
+    - Analista e Desenvolvedores
+Camada-de-dados:
+    - DBAs (Data Base administrators)
+```
+
+### Casos de Uso (Tradicional vs Histórias do Usuario (Ágil)
+- ***Casos de uso*** descrevem o que o sistema deverá fazer. Ou seja, descreve as funcionalidades do ponto de vista identificado pelo analista.
+- ***Histórias dos usuário*** descrevem o que o usuário precisa pra realizar sua tarefa. Ou seja, descreve as funcionalidades do ponto de vista da necessidade do usuário.
+
+### Metodologia ágil
+A metodologia agil foca na automação e no núcleo do software
+arquiteura de soluções reutilização em nivel de infraestrutura
+
+### Arquitetura de siftware do ponto de vista ágil
+- No processo ágil **todos os desenvolvedores são arquitetos (fullstack)** em diferentes níveis técnicos;
+- Ninguem precisa de autorização para experimentar;
+- As equipes devem focar e pensar nos **módulos de negócios** utilizando o
+conceito da modelagem baseada em domínio (DDD);
+- O objetivo da arquitetura de software é minimizar os recursos humanos
+necessários para construir e manter o sistema necessário. (Robert C. Martin)
